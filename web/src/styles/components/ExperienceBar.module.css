@@ -1,0 +1,31 @@
+.experienceBar {
+    display: flex;
+    align-items: center;
+}
+
+.experienceBar span {
+    font-size: 1rem;
+}
+
+.progress {
+    flex: 1;
+    height: 4px;
+    border-radius: 4px;
+    background: var(--gray-line);
+    margin: 0 1.5rem;
+
+}
+
+.current {
+    height: 4px;
+    border-radius: 4px;
+    background: var(--green);
+    position: relative;
+}
+
+.currentNumber {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    transform: translateX(50%);
+}
