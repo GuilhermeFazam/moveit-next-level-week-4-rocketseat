@@ -1,3 +1,4 @@
+import ChallengeBox from '../components/ChallengeBox';
 import CompletedChallenges from '../components/CompletedChallenges';
 import CountDown from '../components/CountDown';
 import ExperienceBar from '../components/ExperienceBar';
@@ -10,11 +11,10 @@ export default function Home() {
     return (
         <>
             <SEO
-                title="move.it"
+                title="move.it: Tenha controle em seus movimentos"
                 description="Seu tempo em movimento"
                 image="logo-full.svg"
                 shouldIndexPage
-                shouldExcludeTitleSuffix
             />
             <div className={styles.container}>
                 <ExperienceBar />
@@ -24,7 +24,9 @@ export default function Home() {
                         <CompletedChallenges />
                         <CountDown />
                     </div>
-                    <div />
+                    <div>
+                        <ChallengeBox />
+                    </div>
                 </section>
             </div>
         </>
