@@ -9,6 +9,7 @@ function ChallengeBox() {
     );
 
     const { resetCountDown } = useContext(CountDownContext);
+    const { resetCountDown } = useContext(CountDownContext);
 
     function handleChallengeSucceeded() {
         completedChallenge();
