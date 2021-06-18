@@ -9,7 +9,6 @@ function CompletedChallenges() {
             <span>Desafios completos</span>
             <span>{challengesCompleted}</span>
         </div>
-        </div>
     );
 }
 
