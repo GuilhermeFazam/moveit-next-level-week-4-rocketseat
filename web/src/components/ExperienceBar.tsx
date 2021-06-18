@@ -11,7 +11,7 @@ function ExperienceBar() {
         Math.round(currentExperience * 100) / experienceToNextLevel;
 
     return (
-        <header className={style.experienceBar}>
+        <header className={style.experienceBar} ascasd>
             <span>0 xp</span>
             <div className={style.progress}>
                 <div
